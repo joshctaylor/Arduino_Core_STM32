@@ -20,6 +20,8 @@
 #ifndef Arduino_h
 #define Arduino_h
 
+#include "Callback.h"
+
 #ifndef GCC_VERSION
 #define GCC_VERSION (__GNUC__ * 10000 \
                      + __GNUC_MINOR__ * 100 \
@@ -34,6 +36,7 @@
 #endif
 
 #include "wiring.h"
+
 
 /* sketch */
 
